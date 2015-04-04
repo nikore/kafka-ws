@@ -1,0 +1,52 @@
+# Eclipse artifacts
+.classpath
+.project
+.settings
+*.lock
+
+# Scala incremental compile cache (at least Eclipse generates this)
+.cache
+
+# IDEA artifacts
+*.iml
+.idea
+
+# Maven artifacts
+target
+*.versionsBackup
+
+# Ignore [ce]tags files
+TAGS
+tags
+
+# Ignore mac resources
+.DS_Store
+
+# Misc
+*.swp
+atlassian-ide-plugin.xml
+*.lock.pid
+config.properties.lock
+*.out
+*.sublime-project
+*.sublime-workspace
+*.lock
+
+bin/
+
+# Ignore local config dir for various projects
+localconfig/
+
+# Bugs in build, tests should not produce artifacts here
+rrShared/src/main/java/com/rr/feed/validation/
+rrBlueSteelFtp/build/
+exportToHTML/
+rrDatamesh/rrEtl/.cache
+rrHadoop/rrMapReduce/build/
+rrShared/model
+
+#rrCoach
+*.pyc
+
+# Emacs backup files
+*~
